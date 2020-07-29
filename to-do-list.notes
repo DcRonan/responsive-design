@@ -1,8 +1,13 @@
 
 TODO:
-[ ] 
-[ ] 
-[ ] 
+[ ] Change div to *article* tags
+[ ] Add *a* tags to nav-bar li's
+[ ] Add logo on nav and add display none for media query
+[ ] display none for main-logo and date class for media query
+[ ] add flex for funding text
+[ ] remove main-gradient in media query
+[ ] add comments
+[ ] add fonts and colors
 
 
 -= Code Examples for Terminal =-
