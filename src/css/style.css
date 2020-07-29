@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    color: black;
 }
 
 :root{
@@ -59,6 +58,7 @@ header {
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 main {
@@ -128,25 +128,26 @@ aside {
 .left-box,
 .right-box,
 .right-box-2 {
-    background-size: 100% 100%;
+    background-size: cover;
     position: relative;
     padding: 15px;
 }
 
 .left-box {
-    background-image: url("../assets/backgroundpic-1.jpg");
+    background-image: linear-gradient(145deg, rgba(236,106,108,0.906582701439951) 37%, rgba(246,165,166,0) 73%),
+     url("../assets/backgroundpic-1.jpg");
     grid-column: 1 / 3;
     grid-row: 1 / 3;  
-    /* background: rgb(255,124,122);
-    background: linear-gradient(127deg, rgba(255,124,122,0.8925770137156425) 10%, rgba(252,88,116,0.3183473218388918) 25%);    */
 }
 
 .right-box {
-    background-image: url(../assets/backgroundpic-2.jpg);
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.83375356978729) 33%, rgba(0,0,0,0.45840342973126746) 47%, rgba(0,0,0,0) 64%),
+     url(../assets/backgroundpic-2.jpg);
 }
 
 .right-box-2 {
-    background-image: url(../assets/backgroundpic-3.png);
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.83375356978729) 33%, rgba(0,0,0,0.45840342973126746) 47%, rgba(0,0,0,0) 64%),
+    url(../assets/backgroundpic-3.png);
 }
 
 .head-box-text,
