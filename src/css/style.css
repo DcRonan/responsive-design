@@ -193,6 +193,23 @@ nav li {
   margin: 0 10px;
 }
 
+.top-articles,
+.deals-section,
+.funding-container {
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.top-articles h2, 
+.deals-section h2 {
+  padding-left: 23px;
+}
+
+.top-articles {
+  margin-top: 40px;
+}
+
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -273,6 +290,32 @@ footer li,
 
 .search-btn a {
   color: var(--l-gray);
+}
+
+.funding-container {
+  margin: 50px auto;
+}
+
+.funding-titles {
+  justify-content: space-between;
+}
+
+.fund-left {
+  padding-left: 25px;
+}
+
+.funding-titles a,
+.deals-section > div > h2 > a {
+  color: var(--red-orange);
+}
+
+.fund-right {
+  padding-right: 15px;
+  font-weight: 300;
+}
+
+.fund-right li {
+  margin: 0 10px;
 }
 
 .funding div {
@@ -408,10 +451,8 @@ CATEGORIES BACKGROUND IMAGES
 
 /* latest-deals */
 
-.latest-deals-text {
- 
-  margin-left: 150px;
-  font-weight: bold;
+.deals-section {
+  margin: 40px auto;
 }
 
 .latest-deals-text a {
@@ -444,8 +485,9 @@ CATEGORIES BACKGROUND IMAGES
 }
 
 .social {
-  width:27%;
+  width:100%;
   margin-bottom: 15px;
+  justify-content: space-evenly;
 }
 
 .social li {  
@@ -454,6 +496,7 @@ CATEGORIES BACKGROUND IMAGES
   background-color: grey;
   border-radius: 50%;
   text-align: center; 
+  margin: 0 5px;
 }
 
 .social i {
