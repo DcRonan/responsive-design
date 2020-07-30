@@ -112,15 +112,6 @@ nav li {
   float: left;
 }
 
-aside {
-  display: none;
-}
-
-.nav-button:focus + aside {
-  display: flex;
-  height: 100vh;
-}
-
 .header-articles > div {
   margin: 0 5px;
 }
