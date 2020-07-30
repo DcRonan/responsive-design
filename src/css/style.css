@@ -30,6 +30,7 @@
     "main main main main main main main"
     "footer footer footer footer footer footer footer";
 }
+
 /* 
 ========================
 
@@ -405,6 +406,18 @@ CATEGORIES BACKGROUND IMAGES
   color: #555555; 
 }
 
+/* latest-deals */
+
+.latest-deals-text {
+ 
+  margin-left: 150px;
+  font-weight: bold;
+}
+
+.latest-deals-text a {
+  color: var(--red-orange);
+}
+
 .flex-deals img {
    height: 200px;
    width: 100%;
@@ -455,4 +468,12 @@ CATEGORIES BACKGROUND IMAGES
 .contact a{
  font-size: 12px;
  font-weight: 600;
+}
+
+.bottom-footer {
+  padding: 25px;
+  background-color: black;  
+  color: var(--gray);
+  font-size: 13px;
+  
 }
