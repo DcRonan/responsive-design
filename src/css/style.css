@@ -30,6 +30,7 @@
     "main main main main main main main"
     "footer footer footer footer footer footer footer";
 }
+
 /* 
 ========================
 
@@ -84,7 +85,7 @@ main {
 
 footer {
   grid-area: footer;
-  background-color: coral;
+  background-color: #555; 
 }
 
 nav {
@@ -393,9 +394,86 @@ CATEGORIES BACKGROUND IMAGES
 .flex-box-cat ul {
   width: 90%;
   margin: 0 auto;
-  font-size: 12px;
+  font-size: 12px;  
 }
 
 .flex-box-cat li {
   margin: 10px 0;
+  color: var(--red-orange);  
+}
+
+.flex-box-cat li a {
+  color: #555555; 
+}
+
+/* latest-deals */
+
+.latest-deals-text {
+ 
+  margin-left: 150px;
+  font-weight: bold;
+}
+
+.latest-deals-text a {
+  color: var(--red-orange);
+}
+
+.flex-deals img {
+   height: 200px;
+   width: 100%;
+   object-fit: cover;
+   cursor: pointer;
+}
+
+.flex-deals a:hover {
+  color: var(--red-orange);
+}
+
+.flex-deals span {
+  text-decoration: line-through;
+}
+
+.flex-deals figcaption {
+  font-weight: 600;
+}
+
+/* Footer */
+
+.top-footer {
+  padding: 30px 80px;
+}
+
+.social {
+  width:27%;
+  margin-bottom: 15px;
+}
+
+.social li {  
+  width: 35px;
+  height: 35px;
+  background-color: grey;
+  border-radius: 50%;
+  text-align: center; 
+}
+
+.social i {
+  margin-top: 10px;
+  color: aliceblue;
+}
+
+.contact {
+  width: 24%;
+}
+
+.contact a{
+ font-size: 12px;
+ font-weight: 600;
+}
+
+.bottom-footer {
+  padding: 25px;
+  background-color: black;  
+  color: var(--gray);
+  font-size: 13px;
+  
 }
