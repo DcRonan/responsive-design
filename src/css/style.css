@@ -90,7 +90,6 @@ a {
 
 main {
   grid-area: main;
-  background-color: cornflowerblue;
 }
 
 footer {
@@ -179,6 +178,7 @@ nav li {
 
 .left-box img {
   width: 400px;
+  padding-left: 20px;
   height: 150px;
   top: 0;
   left: 0;
@@ -187,6 +187,7 @@ nav li {
 .head-box-text {
   bottom: 0;
   left: 0;
+  padding: 0 0 10px 10px;
 }
 
 .head-box-text h2 {
@@ -197,6 +198,7 @@ nav li {
 .date {
   top: 0;
   right: 0;
+  padding: 10px 10px 0 0;
 }
 
 .head-box-text span {
@@ -220,6 +222,10 @@ nav li {
   margin-top: 40px;
 }
 
+.top-articles a {
+  color: black;
+}
+
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -230,7 +236,6 @@ nav li {
 .flex-box {
   flex-basis: 250px;
   margin: 10px auto;
-  background-color: slateblue;
   font-size: 15px;
 }
 
@@ -253,7 +258,6 @@ figcaption {
 
 .flex-box-cat {
   flex-basis: 350px;
-  background-color: peru;
   margin: 10px auto;
   flex-direction: column;
 }
@@ -280,7 +284,6 @@ footer li,
   width: 100%;
   margin-top: 20px;
   padding: 10px;
-  background-color: pink;
   justify-content: center;
 }
 
@@ -288,7 +291,6 @@ footer li,
   height: 40px;
   align-items: center;
   width: 100%;
-  background-color: white;
   color: var(--l-gray);
 }
 
@@ -315,7 +317,8 @@ footer li,
 }
 
 .funding-titles a,
-.deals-section > div > h2 > a {
+.deals-section > div > h2 > a,
+.top-articles > div > h2 > a {
   color: var(--red-orange);
 }
 
@@ -488,6 +491,14 @@ CATEGORIES BACKGROUND IMAGES
   font-weight: 600;
 }
 
+.flex-deals figcaption a {
+   color: black;
+}
+
+.flex-deals img {
+  margin-bottom: 10px;
+}
+
 /* Footer */
 
 .top-footer {
@@ -526,4 +537,8 @@ CATEGORIES BACKGROUND IMAGES
   background-color: black;  
   color: var(--gray);
   font-size: 13px;
+}
+
+.bottom-footer img {
+  width: 50px;
 }
