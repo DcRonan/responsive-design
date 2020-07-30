@@ -360,3 +360,19 @@ CATEGORIES BACKGROUND IMAGES
   bottom: 0;
   color: white;
 }
+
+.cat-latest-text {
+  width: 65%;
+  height: 100%;
+  padding: 10px;
+}
+
+.latest-img {
+  width: 35%;
+}
+
+.latest-img img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
