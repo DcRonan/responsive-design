@@ -55,10 +55,9 @@ MEDIA QUERIES
     font-size: smaller;
   }
 
-.head-box-text h2 {
-  font-weight: 500;
-  font-size: 10px;
-}
+  .main-head-text {
+    font-size: small;
+  }
 
   .main {
     width: 100px;
@@ -86,6 +85,7 @@ MEDIA QUERIES
 
   .funding-titles {
     flex-direction: column;
+    font-size: 10px;
   }
 
   .top-articles {
@@ -95,6 +95,10 @@ MEDIA QUERIES
   .contact ul  {
     font-size: 30%;
   }
+
+  .hide-funding {
+    display: none;
+  }  
 
 }
 
@@ -153,9 +157,6 @@ nav {
   background-color: black;
 }
 
-main > h2 > a {
-  color: red;
-}
 
 .flex {
   display: flex;
@@ -181,6 +182,10 @@ nav li {
 
 .header-articles > div {
   margin: 0 5px;
+}
+
+.main-head-text {
+  font-size: 40px;
 }
 
 .header-articles {
@@ -436,8 +441,6 @@ footer li,
   color: black;
 }
 
-
-
 .fund-header-1 h3 {
   color: white;
 }
@@ -628,7 +631,7 @@ CATEGORIES BACKGROUND IMAGES
 
 .social,
 .contact {
-  width:110%;
+  width:100%;
   justify-content: space-evenly;
   margin: 15px auto;
 }
@@ -648,9 +651,9 @@ CATEGORIES BACKGROUND IMAGES
 }
 
 .contact a {
-  font-size: 50%;
+  font-size: 8px;
  font-weight: 600;
- margin: 0 10px;
+ margin: 0 5px;
 }
 
 .bottom-footer {

@@ -6,14 +6,12 @@ TODO:
 [ ] Add logo on nav and add display none for media query
 [√] display none for main-logo and date class for media query
 [√] add flex for funding text
-[ ] remove main-gradient in media query
+[x] remove main-gradient in media query
 [ ] add comments
 [ ] add fonts and colors
 [ ] add *a* to footer li
-[ ] remove one funding box in media query
-[ ] 
+[√] remove one funding box in media query
 [√] Fix nav-bar
-[ ] make the categories padding smaller
 
 
 -= Code Examples for Terminal =-
