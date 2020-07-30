@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 :root {
@@ -53,10 +54,6 @@ MEDIA QUERIES
 
   .header-articles {
     font-size: smaller;
-  }
-
-  .main-head-text {
-    font-size: small;
   }
 
   .main {
@@ -113,6 +110,10 @@ MEDIA QUERIES
     display: none;
   }
 
+  /* .nav-bars {
+    margin-left: 90px;
+  } */
+
 }
 
 /*
@@ -148,15 +149,30 @@ nav {
   grid-area: nav;
   font-size: 12px;  
   z-index: 1;
+  position: relative;
+  background-color: black;
+}
+
+.head-logo {
+  background-color: black;
+  width: 90px;
+  height: 65px;
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.head-logo img {
+  width: 100%;
+  object-fit: cover;
 }
 
 .nav-bars {
   top:0;
   position: fixed;
   width: 100%;
-  background-color: black;
 }
-
 
 .flex {
   display: flex;
@@ -185,7 +201,7 @@ nav li {
 }
 
 .main-head-text {
-  font-size: 40px;
+  font-size: 200%;
 }
 
 .header-articles {
@@ -305,7 +321,7 @@ nav li {
 }
 
 figcaption {
-  color: var(--l-gray);
+  color: var(--gray);
 }
 
 .funding {
