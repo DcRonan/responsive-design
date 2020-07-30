@@ -230,7 +230,9 @@ figcaption {
   flex-direction: column;
 }
 
-li {
+nav li,
+footer li,
+ .funding-titles li   {
   list-style: none;
 }
 
@@ -388,3 +390,12 @@ CATEGORIES BACKGROUND IMAGES
   height: 100%;
 }
 
+.flex-box-cat ul {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 12px;
+}
+
+.flex-box-cat li {
+  margin: 10px 0;
+}
