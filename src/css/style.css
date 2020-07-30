@@ -299,12 +299,56 @@ li {
 .fund-bottom {
   background-color: var(--l-pink);
 }
+/* 
+============================
+CATEGORIES BACKGROUND IMAGES
+============================ 
+*/
 
 .fork-img-box {
   background-image: var(--black-gradient), url(../assets/hard-fork.jpg);
 }
 
+.apps-img-box {
+  background-image: var(--black-gradient), url(../assets/twitter.png);
+}
 
+.gear-img-box {
+  background-image: var(--black-gradient),
+  url(../assets/chart.png);
+}
+
+.tech-img-box {
+  background-image: var(--black-gradient),
+  url(../assets/tech-office.png);
+}
+
+.creative-img-box {
+  background-image: var(--black-gradient),
+  url(../assets/creative.jpg);
+}
+
+.podium-img-box {
+  background-image: var(--black-gradient),
+  url(../assets/podium.jpg);
+}
+
+.insights-img-box {
+  background-image: var(--black-gradient),
+  url(../assets/hard-fork.jpg);
+}
+
+.launch-img-box {
+  background-image: var(--black-gradient),
+  url(../assets/BMW.png);
+}
+
+.distract-img-box {
+  background-image: var(--black-gradient),
+  url(../assets/post-generator.png);
+}
+
+/* ======= END ======== */
 
 .cat-box {
   object-fit: cover;
