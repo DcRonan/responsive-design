@@ -1,6 +1,6 @@
 
 TODO:
-[ ] Change div to *article* tags
+[ ] Change div to *article* tags (for top content too with figure tags)
 [ ] Add *a* tags to nav-bar li's
 [ ] Add logo on nav and add display none for media query
 [ ] display none for main-logo and date class for media query
@@ -8,6 +8,7 @@ TODO:
 [ ] remove main-gradient in media query
 [ ] add comments
 [ ] add fonts and colors
+[ ] Fix nav-bar
 
 
 -= Code Examples for Terminal =-
