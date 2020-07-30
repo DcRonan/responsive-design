@@ -8,6 +8,7 @@
   --l-gray: gainsboro;
   --gray: #808080;
   --red-orange: #ff4422;
+  --nav-color: #aaaaaa;
   --l-orange: #fff4f2;
   --pink: #ffebe7;
   --l-pink: #fffaf8;
@@ -45,6 +46,11 @@ MEDIA QUERIES
     display: none;
   }
 
+  .nav-btn,
+  .fa-bars {
+    display: flex;
+  }
+
   .header-articles {
     font-size: smaller;
   }
@@ -53,10 +59,6 @@ MEDIA QUERIES
   font-weight: 500;
   font-size: 10px;
 }
-
-  .header-articles img {
-    display: none;
-  }
 
   .main {
     width: 100px;
@@ -89,21 +91,31 @@ MEDIA QUERIES
   .top-articles {
   padding-top: 200px;
   }
+
+  .contact ul  {
+    font-size: 30%;
+  }
+
 }
 
 @media screen and (max-width: 1075px) {
+
   header {
     font-size: smaller;
   }
+
+  .header-articles img,
+  .date {
+    display: none;
+  }
+
 }
 
-@media screen and (max-width: 490px) {
-  .contact ul  {
-    /* flex-direction: column; */
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-  }
-}
+/*
+==================
+END
+==================
+*/
 
 header {
   grid-area: header;
@@ -130,7 +142,6 @@ footer {
 
 nav {
   grid-area: nav;
-  color: var(--l-gray);
   font-size: 12px;  
   z-index: 1;
 }
@@ -138,8 +149,7 @@ nav {
 .nav-bars {
   top:0;
   position: fixed;
-  width: 1440px;
-  z-index: 1;
+  width: 100%;
   background-color: black;
 }
 
@@ -158,13 +168,12 @@ nav li {
 .right-nav {
   justify-content: flex-end;
   float: right;
-  
 }
 
 .left-nav {
   float: left;
-  
 }
+
 .left-nav a:hover,
 .right-nav a:hover {
  color: var(--l-gray);
@@ -181,6 +190,7 @@ nav li {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: minmax(2, 1fr);
   margin: 20px 0;
+  color: white;
 }
 
 .left-box,
@@ -259,8 +269,6 @@ nav li {
   padding-left: 23px;
 }
 
-
-
 .top-articles {
   margin-top: 40px;
 }
@@ -319,7 +327,6 @@ footer li,
 .social,
 .contact {
   margin: 0 auto;
-  /* width: 500px; */
 }
 
 .bottom-footer {
@@ -332,28 +339,44 @@ footer li,
 
 .bottom-nav {
   background-color: white;
-  height: 40px;
   align-items: center;
   width: 100%;
-  font-weight: 600;  
+  font-weight: 600;
+  border: solid 1px gainsboro;  
+  padding: 14px 5px;
 }
 
 .bottom-nav a {
-  color: var(--l-gray);
+  color: var(--nav-color);
 }
 
 .bottom-nav a:hover {
   color: var(--gray);
 }
 
-.search-btn {
-  right: 0;
-  position: absolute;
-  font-size: large;
+.fa-search {
+  margin-right: 5px;
 }
 
-.search-btn a {
-  color: var(--l-gray);
+.nav-btn {
+  padding: 6px;
+  font-size: 30px;
+  border: none;
+  background: none;
+  color: var(--red-orange);
+  outline: none;
+  display: none;
+}
+
+.fa-bars {
+  display: none;
+}
+
+.search-aside-buttons {
+  right: 0;
+  position: absolute;
+  font-size: 25px;
+  padding-left: 10px;
 }
 
 .funding-container {
@@ -605,7 +628,7 @@ CATEGORIES BACKGROUND IMAGES
 
 .social,
 .contact {
-  width:60%;
+  width:110%;
   justify-content: space-evenly;
   margin: 15px auto;
 }
@@ -616,7 +639,7 @@ CATEGORIES BACKGROUND IMAGES
   background-color: grey;
   border-radius: 50%;
   text-align: center; 
-  margin: 0 5px;
+  margin: 0 3px;
 }
 
 .social i {
@@ -624,8 +647,8 @@ CATEGORIES BACKGROUND IMAGES
   color: aliceblue;
 }
 
-.contact a{
- font-size: 12px;
+.contact a {
+  font-size: 50%;
  font-weight: 600;
  margin: 0 10px;
 }
@@ -634,14 +657,9 @@ CATEGORIES BACKGROUND IMAGES
   padding: 40px;
   background-color: black;  
   color: var(--gray);
-  font-size: 13px;
+  font-size: 10px;
 }
 
 .bottom-footer img {
   width: 30px;
-}
-
-.footer-img {
-  width: 100px;
-  height: 50px;
 }

@@ -1,15 +1,19 @@
 
 TODO:
-[ ] Change div to *article* tags (for top content too with figure tags)
-[ ] Add images for funding
-[ ] Add *a* tags to nav-bar li's
+[√] Change div to *article* tags (for top content too with figure tags)
+[√] Add images for funding
+[√] Add *a* tags to nav-bar li's
 [ ] Add logo on nav and add display none for media query
-[ ] display none for main-logo and date class for media query
-[ ] add flex for funding text
+[√] display none for main-logo and date class for media query
+[√] add flex for funding text
 [ ] remove main-gradient in media query
 [ ] add comments
 [ ] add fonts and colors
-[ ] Fix nav-bar
+[ ] add *a* to footer li
+[ ] remove one funding box in media query
+[ ] 
+[√] Fix nav-bar
+[ ] make the categories padding smaller
 
 
 -= Code Examples for Terminal =-
