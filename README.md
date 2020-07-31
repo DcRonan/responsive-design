@@ -15,7 +15,7 @@ We used HTML & CSS, including GRID, Flex-Box and media queries. The webpage is v
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/DcRonan/responsive-design/feature/src/index.html)
+[Live Demo Link](https://raw.githack.com/DcRonan/responsive-design/main-feature-1/src/index.html)
 
 
 ## Preparation
