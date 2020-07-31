@@ -8,13 +8,13 @@ TODO:
 [√] add flex for funding text
 [√] remove main-gradient in media query
 [ ] add comments
-[ ] add fonts and colors
+[√] add fonts and colors
 [√] add *a* to footer li
 [√] remove one funding box in media query
 [√] Fix nav-bar
-[ ] Add view all tp deals area
-[ ] Change width of categories for media query
-[ ] Change flex direction for latest deals and latest news
+[√] Add view all tp deals area
+[√] Change width of categories for media query
+[√] Change flex direction for latest deals and latest news
 [√] Central footer2 texts
 
 
