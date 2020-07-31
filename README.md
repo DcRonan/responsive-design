@@ -15,14 +15,14 @@ We used HTML & CSS, including GRID, Flex-Box and media queries. The webpage is v
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://raw.githack.com/DcRonan/responsive-design/feature/src/index.html)
 
 
 ## Preparation
 
 Below you can see how we prepared our layout, the whole page layout is a GRID layout including the top main section and then the rest of the sections are used by Flex-Box. This gives us a nice idea of where everything is and so that we can keep it tidy.
 
-![screenshot](./src/assets/prep-layout.jpg)
+![screenshot](./src/assets/prep-layout.png)
 
 
 ## Authors
