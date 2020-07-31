@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: roboto, sans-serif;
 }
 
 :root {
@@ -13,6 +13,9 @@
   --l-orange: #fff4f2;
   --pink: #ffebe7;
   --l-pink: #fffaf8;
+  --pink-gradient: linear-gradient(
+    145deg,
+    rgba(236, 106, 108, 0.906582701439951) 37%);
   --black-gradient: linear-gradient(
     0deg,
     rgba(0, 0, 0, 0.83375356978729) 33%,
@@ -66,7 +69,7 @@ nav {
 .head-logo {
   display: none;
   background: linear-gradient(118deg, rgba(211,9,137,1) 39%, rgba(231,36,90,1) 62%, rgba(255,68,34,1) 90%);  width: 90px;
-  height: 65px;
+  height: 67px;
   position: absolute;
   top: 0;
   left: 0;
@@ -606,9 +609,22 @@ MEDIA QUERIES
 
 @media screen and (max-width: 768px) {
 
+  header {
+    font-size: smaller;
+  }
+
+  .header-articles img,
+  .date {
+    display: none;
+  }
+
+  .left-box {
+    background-image: var(--black-gradient),
+      url(../assets/backgroundpic-1.jpg);
+  }
+
   .head-logo {
     display: flex;
-    background-color: red;
     justify-content: center;
     align-items: center;
     position: fixed;
@@ -676,17 +692,9 @@ MEDIA QUERIES
 
 }
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
 
-  header {
-    font-size: smaller;
-  }
-
-  .header-articles img,
-  .date {
-    display: none;
-  }
-}
+} */
 
 @media screen and (max-width: 425px) {
 
@@ -717,8 +725,8 @@ MEDIA QUERIES
   }
 
   .fa-search {
-    top: 7px;
-    right: 45px;
+    top: 9px;
+    right: 50px;
     position: fixed;
   }
 
