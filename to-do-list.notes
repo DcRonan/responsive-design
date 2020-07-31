@@ -9,7 +9,7 @@ TODO:
 [√] remove main-gradient in media query
 [ ] add comments
 [ ] add fonts and colors
-[ ] add *a* to footer li
+[√] add *a* to footer li
 [√] remove one funding box in media query
 [√] Fix nav-bar
 [ ] Add view all tp deals area
