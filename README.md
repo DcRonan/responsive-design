@@ -1,39 +1,28 @@
-# Project Name
+# Building with Responsive Design
 
-> Write about the project...
+> In this project we creted a clone of [The Next Web](https://thenextweb.com/)
 
-![screenshot](./app_screenshot.png)
+![screenshot](./src/assets/main-screenshot.jpg)
 
-Additional description about the project and its features...
+We used HTML & CSS, including GRID, Flex-Box and media queries. The webpage is visually responsive for all formats including mobile and for you to test this you can right-click on your browser, click inspect and select the different grey bars at the top which will re-size and you will see how the layout changes and what disappears and pops up.
 
 ## Built With
 
 - HTML
 - CSS
+- VS Code
+- Font Awesome Icons
 
 ## Live Demo
 
 [Live Demo Link](https://livedemo.com)
 
 
-## Getting Started
+## Preparation
 
-**Give instructions on setting up your project locally.**
+Below you can see how we prepared our layout, the whole page layout is a GRID layout including the top main section and then the rest of the sections are used by Flex-Box. This gives us a nice idea of where everything is and so that we can keep it tidy.
 
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+![screenshot](./src/assets/prep-layout.jpg)
 
 
 ## Authors
@@ -45,9 +34,7 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Coding Parter**
 
-- Github: [****](****)
-- Twitter: [****](****)
-- Linkedin: [linkedin](****)
+- Github: [@LamiaSristy](https://github.com/LamiaSristy)
 
 ## 🤝 Contributing
 
