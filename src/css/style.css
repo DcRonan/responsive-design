@@ -758,6 +758,52 @@ MEDIA QUERIES
     right: 15px;
   }
 
+  .container {
+    flex-direction: column;
+  }
+
+  .top-articles {
+    padding-top: 370px;
+    }
+
+  .top-articles article,
+  .flex-deals {
+    margin: -65px 0;
+  }
+
+  .top-articles h2,
+  .deals-section h2 {
+    padding-bottom: 80px;
+    margin-left: -17px;
+  }
+
+.article-img {
+  position: absolute;
+  left: 5px;
+  width: 80px;
+  height: 80px;
+}
+
+.article-img-deals {
+  position: absolute;
+  left: 5px;
+  width: 80px;
+  height: 100%;
+}
+
+.flex-deals img {
+  height: 80px;
+  width: 100%;
+}
+
+figcaption {
+  flex-direction: column;
+  position: absolute;
+  left: 90px;
+  font-size: 80%;
+  padding: 0 15px;
+}
+
 }
 
 /*
