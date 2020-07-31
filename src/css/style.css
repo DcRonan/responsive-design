@@ -64,6 +64,7 @@ nav {
   font-size: 12px;  
   z-index: 1;
   position: relative;
+  max-width: 1440px;
 }
 
 .head-logo {
@@ -81,9 +82,11 @@ nav {
 }
 
 .nav-bars {
-  top:0;
+  top: 0;
   position: fixed;
+  min-width: 1440px;
   max-width: 1440px;
+  
   background-color: black;
 }
 
@@ -309,7 +312,7 @@ footer li,
 
 .search-aside-buttons {
   right: 0;
-  bottom: -8px;
+  bottom: 4px;
   position: absolute;
   font-size: 25px;
   margin-right: 10px;
@@ -628,6 +631,7 @@ MEDIA QUERIES
     justify-content: center;
     align-items: center;
     position: fixed;
+    z-index: 2;
   }
 
   .head-logo img {
@@ -687,7 +691,7 @@ MEDIA QUERIES
   }  
 
   .nav-bars {
-    margin-left: 90px;
+    padding-left: 90px;
   }
 
 }
