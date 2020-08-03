@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "description": "> In this project we creted a clone of [The Next Web](https://thenextweb.com/)",
   "main": "index.js",
-  "dependencies": {
-    "hint": "^6.0.7"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "hint": "^6.0.7",
     "stylelint": "^13.3.3",
     "stylelint-config-standard": "^20.0.0",
     "stylelint-csstree-validator": "^1.8.0",
