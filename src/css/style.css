@@ -27,6 +27,8 @@ COLOR VARIABLES
   --l-orange: #fff4f2;
   --pink: #ffebe7;
   --l-pink: #fffaf8;
+  --black: #000;
+  --white: #fff;
   --pink-gradient:
     linear-gradient(
       145deg,
@@ -60,7 +62,7 @@ header {
 
 a {
   text-decoration: none;
-  color: white;
+  color: var(--white);
 }
 
 main {
@@ -76,7 +78,6 @@ nav {
 }
 
 .head-logo {
-  display: flex;
   justify-content: center;
   align-items: center;
   background:
@@ -105,7 +106,7 @@ nav {
   position: fixed;
   min-width: 100%;
   max-width: 1440px;
-  background-color: black;
+  background-color: var(--black);
 }
 
 .flex {
@@ -127,7 +128,7 @@ nav li {
 }
 
 .top-articles a {
-  color: black;
+  color: var(--black);
 }
 
 .contact a {
@@ -146,7 +147,7 @@ nav li {
 }
 
 .funding a {
-  color: black;
+  color: var(--black);
 }
 
 .fund-body a,
@@ -171,7 +172,7 @@ nav li {
 }
 
 .flex-deals figcaption a {
-  color: black;
+  color: var(--black);
 }
 
 .flex-box-cat li a {
@@ -207,7 +208,7 @@ nav li {
 .flex-box-cat li a:hover,
 .flex-box-cat > h3 > a:hover,
 .top-articles > div > h2 > a:hover {
-  color: black;
+  color: var(--black);
 }
 
 .header-articles > div {
@@ -217,8 +218,8 @@ nav li {
 .header-articles {
   flex-direction: column;
   gap: 5px;
-  margin: 20px 0;
-  color: white;
+  margin: 50px 0 20px 0;
+  color: var(--white);
 }
 
 .left-box,
@@ -304,7 +305,6 @@ figcaption span {
 }
 
 .container {
-  display: flex;
   flex-wrap: wrap;
   max-width: 1200px;
   margin: 0 auto;
@@ -350,7 +350,7 @@ footer li,
 }
 
 .bottom-nav {
-  background-color: white;
+  background-color: var(--white);
   align-items: center;
   width: 100%;
   height: 46px;
@@ -371,7 +371,6 @@ footer li,
   background: none;
   color: var(--red-orange);
   outline: none;
-  display: flex;
   cursor: pointer;
 }
 
@@ -423,7 +422,7 @@ footer li,
 }
 
 .fund-header-1 h3 {
-  color: white;
+  color: var(--white);
 }
 
 .fund-header-1 {
@@ -512,7 +511,7 @@ CATEGORIES BACKGROUND IMAGES
   justify-content: flex-end;
   flex-direction: column;
   bottom: 0;
-  color: white;
+  color: var(--white);
 }
 
 .cat-latest-box {
@@ -612,8 +611,9 @@ footer {
 }
 
 .social li {
-  width: 35px;
-  height: 35px;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
   background-color: grey;
   border-radius: 50%;
   text-align: center;
@@ -631,11 +631,10 @@ footer {
 
 .bottom-footer {
   padding: 40px;
-  background-color: black;
+  background-color: var(--black);
   color: var(--gray);
   font-size: 10px;
   text-align: center;
-  display: flex;
   width: 100%;
   margin-top: 20px;
   justify-content: center;
@@ -658,6 +657,11 @@ MEDIA QUERIES
 */
 
 @media screen and (min-width: 768px) {
+  .left-nav,
+  .right-nav {
+   padding: 12px;
+  } 
+
   .nav-btn {
     display: none;
   }
@@ -690,7 +694,8 @@ MEDIA QUERIES
     font-size: 38px;
   }
 
-  nav li {
+  .left-nav li,
+  .bottom-nav li {
     display: flex;
   }
 
@@ -701,7 +706,7 @@ MEDIA QUERIES
   }
 
   .head-logo {
-    height: 65px;
+    height: 88px;
     width: 90px;
   }
 
@@ -760,8 +765,19 @@ MEDIA QUERIES
   }
 
   .bottom-footer p {
-    width: 450px;
+    width: 550px;
+    font-size: 14px;
   }
+
+  .contact a {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .right-nav li {
+    display: flex;
+  }  
 }
 
 @media screen and (min-width: 1024px) {
