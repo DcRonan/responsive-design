@@ -238,7 +238,8 @@ nav li {
 .right-box-2 {
   background-size: cover;
   height: 300px;
-  width: 100vw;
+  background-position-x: center;
+  background-position-y: center;
   position: relative;
   padding: 15px;
 }
@@ -286,8 +287,8 @@ nav li {
   padding: 0 0 10px 10px;
 }
 
-.head-box-text h2 {
-  font-size: 40px;
+.head-box-text h3 {
+  font-size: 20px;
   width: 90%;
 }
 
@@ -414,6 +415,7 @@ footer li,
 .funding-titles {
   justify-content: space-between;
   flex-direction: column;
+  position: relative;
 }
 
 .fund-left {
@@ -422,7 +424,7 @@ footer li,
 }
 
 .fund-right {
-  padding-right: 15px;
+  padding-left: 15px;
   font-weight: 600;
   flex-direction: column;
 }
@@ -525,6 +527,8 @@ CATEGORIES BACKGROUND IMAGES
 .cat-box {
   background-repeat: no-repeat;
   background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
   width: 100%;
   height: 300px;
   padding: 10px;
@@ -539,13 +543,13 @@ CATEGORIES BACKGROUND IMAGES
 }
 
 .cat-latest-text {
-  width: 65%;
+  width: 75%;
   height: 100%;
   padding: 10px;
 }
 
 .latest-img {
-  width: 35%;
+  width: 25%;
 }
 
 .latest-img img {
@@ -605,7 +609,7 @@ CATEGORIES BACKGROUND IMAGES
 }
 
 .deals-titles h4 {
-  padding: 10px 20px 0 0;
+  padding: 10px 42px 0 0;
   font-size: 12px;
   font-weight: 300;
 }
@@ -678,6 +682,10 @@ MEDIA QUERIES
 
 @media screen and (min-width: 768px) {
 
+  .nav-btn {
+    display: none;
+  }
+
   .header-articles {
     flex-direction: row;
   }
@@ -697,6 +705,15 @@ MEDIA QUERIES
     margin-bottom: 5px;
   }
 
+  .head-box-text h3 {
+    font-size: 15px;
+    width: 90%;
+  }
+
+  .left-box h3 {
+    font-size: 38px;
+  }
+
   nav li {
     display: flex;
   }
@@ -712,16 +729,12 @@ MEDIA QUERIES
     width: 90px;
   }
 
-  .head-box-text {
-    font-size: 100%;
-  }
-
   .container {
     flex-direction: row;
   }
   
   .flex-box {
-    flex-basis: 30%;    
+    flex-basis: 30%;
   }
 
   figure {
@@ -732,7 +745,14 @@ MEDIA QUERIES
   .article-img-deals img {
     object-fit: cover;
     width: 100%;
+  }
+
+  .article-img img {
     height: 120px;
+  }
+
+  .article-img-deals img {
+    height: 180px;
   }
 
   .flex-box-cat {
@@ -740,7 +760,7 @@ MEDIA QUERIES
   }
 
   .cat-box {
-    height: 350px;
+    height: 270px;
   }
 
   /* .header-articles img,
@@ -766,11 +786,6 @@ MEDIA QUERIES
   /* .main-head-text {
     font-size: 20px;
   } */
-
-  .main {
-    width: 100px;
-    height: 100px;
-  }
 
   /* .left-box {
     background-image: var(--black-gradient), url(../assets/backgroundpic-1.jpg);
@@ -830,21 +845,23 @@ MEDIA QUERIES
     padding-left: 0;
   }
 
-  .nav-btn {
-    display: none;
-  }
-
   .main-head-text {
     font-size: 40px;
   }
 
- 
-  /* .flex-box-cat {
-    flex-basis: 300px;
-  } */
+  .top-articles h2,
+  .fund-left,
+  .deals-titles h2 {
+    padding-left: 35px;
+  }
+
+  .container {
+    justify-content: space-evenly;
+  }
 
   .flex-box {
-    flex-basis: 220px;   
+    flex-basis: 20%;
+    margin: 10px 10px;   
   }
 
   /* .hide-funding {
@@ -856,26 +873,24 @@ MEDIA QUERIES
   } */
 
   .fund-right {
-    padding: 10px 0 0 17px;
+    padding: 10px 10px 0 17px;
     font-weight: 600;
     flex-direction: row;
     position: absolute;
     right: 0;
-    
   }
 
-  
   .hide-funding {
     display: flex;
     flex-direction: column;
   }
 
   .flex-box-cat {
-    flex-basis: 300px;    
+    flex-basis: 31%;    
   }
 
   .cat-box {
-    height: 220px;
+    height: 260px;
   }
 
   .cat-latest-text a {
