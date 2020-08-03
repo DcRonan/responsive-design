@@ -77,7 +77,6 @@ nav {
 }
 
 .head-logo {
-  /* display: none; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -88,20 +87,14 @@ nav {
       rgba(231, 36, 90, 1) 62%,
       rgba(255, 68, 34, 1) 90%
     );
-  /* width: 90px;
-  height: 67px; */
   height: 47px;
   width: 100px;
   z-index: 2;
   position: absolute;
   position: fixed;
-  /* top: 0;
-  left: 0; */
 }
 
 .head-logo img {
-  /* width: 100%; */
-  /* object-fit: cover; */
   object-fit: contain;
   z-index: 2;
   width: 70px;
@@ -169,7 +162,6 @@ nav li {
 
 
 .fund-right a {
-  /* border-right: 2px solid var(--red-orange); */
   padding-right: 15px;
   font-weight: 300;
 }
@@ -421,12 +413,14 @@ footer li,
 .fund-left {
   padding-left: 25px;
   font-weight: bold;
+  font-size: 17px;
 }
 
 .fund-right {
   padding-left: 15px;
   font-weight: 600;
   flex-direction: column;
+  font-size: smaller;
 }
 
 .hide-funding {
@@ -737,6 +731,18 @@ MEDIA QUERIES
     flex-basis: 30%;
   }
 
+  .fund-right {
+    flex-direction: row;
+  }
+
+  .fund-right a {
+    border-right: 2px solid var(--red-orange);
+  }
+
+  .fund-left {
+    font-size: 25px;
+  }
+
   figure {
     flex-direction: column;
   }
@@ -875,7 +881,6 @@ MEDIA QUERIES
   .fund-right {
     padding: 10px 10px 0 17px;
     font-weight: 600;
-    flex-direction: row;
     position: absolute;
     right: 0;
   }
