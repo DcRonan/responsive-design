@@ -647,6 +647,10 @@ footer {
   width: 30px;
 }
 
+.bottom-footer p {
+  width: 160px;
+}
+
 /*
 ========================
 
@@ -706,6 +710,7 @@ MEDIA QUERIES
 
   .container {
     flex-direction: row;
+    
   }
   
   .flex-box {
@@ -756,6 +761,10 @@ MEDIA QUERIES
 
   .nav-bars {
     padding-left: 90px;
+  }
+
+  .bottom-footer p {
+    width: 450px;
   }
 }
 
