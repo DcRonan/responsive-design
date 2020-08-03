@@ -15,7 +15,7 @@ We used HTML & CSS, including GRID, Flex-Box and media queries. The webpage is v
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/DcRonan/responsive-design/feature/src/index.html)
+[Live Demo Link](https://raw.githack.com/DcRonan/responsive-design/main-feature-1/src/index.html)
 
 
 ## Authors
@@ -25,7 +25,7 @@ We used HTML & CSS, including GRID, Flex-Box and media queries. The webpage is v
 - Github: [@DcRonan](https://github.com/DcRonan)
 - Linkedin: [Daniel Ronan](https://www.linkedin.com/in/danronan10/)
 
-👤 **Coding Parter**
+👤 **Lamia Sristy**
 
 - Github: [@LamiaSristy](https://github.com/LamiaSristy)
 
