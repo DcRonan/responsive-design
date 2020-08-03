@@ -63,7 +63,6 @@ a {
   color: white;
 }
 
-
 main {
   grid-area: main;
 }
@@ -159,7 +158,6 @@ nav li {
 .cat-latest-box h6 {
   color: var(--red-orange);
 }
-
 
 .fund-right a {
   padding-right: 15px;
@@ -409,7 +407,7 @@ footer li,
 }
 
 .hide-funding {
-    display: none;
+  display: none;
 }
 
 .fund-right li {
@@ -656,7 +654,6 @@ MEDIA QUERIES
 */
 
 @media screen and (min-width: 768px) {
-
   .nav-btn {
     display: none;
   }
@@ -674,7 +671,7 @@ MEDIA QUERIES
   .right-box-2 {
     width: 33vw;
     height: 200px;
-  } 
+  }
 
   .right-box {
     margin-bottom: 5px;
@@ -696,7 +693,7 @@ MEDIA QUERIES
   .head-logo img {
     width: 70px;
     height: 70px;
-    object-fit: contain;    
+    object-fit: contain;
   }
 
   .head-logo {
@@ -707,7 +704,7 @@ MEDIA QUERIES
   .container {
     flex-direction: row;
   }
-  
+
   .flex-box {
     flex-basis: 30%;
   }
@@ -760,15 +757,15 @@ MEDIA QUERIES
 }
 
 @media screen and (min-width: 1024px) {
-  
   .left-box {
-  background-image: 
+    background-image:
       linear-gradient(
-      145deg,
-      rgba(236, 106, 108, 0.906582701439951) 37%,
-      rgba(246, 165, 166, 0) 73%),
+        145deg,
+        rgba(236, 106, 108, 0.906582701439951) 37%,
+        rgba(246, 165, 166, 0) 73%
+      ),
       var(--black-gradient),
-    url("../assets/backgroundpic-1.jpg");
+      url("../assets/backgroundpic-1.jpg");
   }
 
   .left-box img,
@@ -800,7 +797,7 @@ MEDIA QUERIES
 
   .flex-box {
     flex-basis: 20%;
-    margin: 10px 10px;   
+    margin: 10px 10px;
   }
 
   .fund-right {
@@ -816,7 +813,7 @@ MEDIA QUERIES
   }
 
   .flex-box-cat {
-    flex-basis: 31%;    
+    flex-basis: 31%;
   }
 
   .cat-box {
@@ -827,5 +824,4 @@ MEDIA QUERIES
     font-size: 13px;
     font-weight: bold;
   }
-  
-}  
+}
