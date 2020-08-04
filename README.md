@@ -1,10 +1,10 @@
 # Building with Responsive Design
 
-> In this project we created a clone of [The Next Web](https://thenextweb.com/)
+> The purpose of this project was to make a responsive webpage for different screen sizes and in doing so we also created a clone of [The Next Web](https://thenextweb.com/)
 
 ![screenshot](./src/assets/main-screenshot.jpg)
 
-We used HTML & CSS, including GRID, Flex-Box and media queries. The webpage is visually responsive for all formats including mobile and for you to test this you can right-click on your browser, Re-size the browser and you will see how the layout changes for differnet screen sizes.
+We used HTML & CSS, including GRID, Flex-Box and media queries. The webpage is visually responsive for all formats including mobile and for you to test this you can re-size the browser and you will see how the layout changes for differnet screen sizes.
 
 ## Built With
 ```
