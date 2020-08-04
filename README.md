@@ -4,7 +4,7 @@
 
 ![screenshot](./src/assets/main-screenshot.jpg)
 
-We used HTML & CSS, including GRID, Flex-Box and media queries. The webpage is visually responsive for all formats including mobile and for you to test this you can right-click on your browser, click inspect and select the different grey bars at the top which will re-size and you will see how the layout changes and what disappears and pops up.
+We used HTML & CSS, including GRID, Flex-Box and media queries. The webpage is visually responsive for all formats including mobile and for you to test this you can right-click on your browser, Re-size the browser and you will see how the layout changes for differnet screen sizes.
 
 ## Built With
 
