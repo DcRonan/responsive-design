@@ -6,6 +6,18 @@
 
 We used HTML & CSS, including GRID, Flex-Box and media queries. The webpage is visually responsive for all formats including mobile and for you to test this you can re-size the browser and you will see how the layout changes for differnet screen sizes.
 
+## Responsive Changes
+
+### Mobile 
+
+<img src="src/assets/small-1.png" style="width: 100px; height: 100px;">
+<img src="src/assets/small-2.png" style="width: 100px; height: 100px;">
+<img src="src/assets/small-3.png" style="width: 100px; height: 100px;">
+
+### Tablet
+
+<img src="src/assets/medium.png" style="width: 100px; height: 100px;">
+
 ## Built With
 ```
 - HTML5 
@@ -15,6 +27,7 @@ We used HTML & CSS, including GRID, Flex-Box and media queries. The webpage is v
 ```
 ![img](./src/assets/svg/html-5.svg) ![img](./src/assets/svg/css-3.svg)
 ![img](./src/assets/svg/v-s-code.svg) ![img](./src/assets/svg/fontawesome.svg)
+
 ## Live Demo
 
 #### Click on image below..
