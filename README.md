@@ -10,7 +10,7 @@ We used HTML & CSS, including GRID, Flex-Box and media queries. The webpage is v
 
 ### Mobile 
 
-<img src="src/assets/small-1.png" style="width: 100px; height: 100px;">
+![img](./src/assets/main-screenshot.jpg =100x100)
 <img src="src/assets/small-2.png" style="width: 100px; height: 100px;">
 <img src="src/assets/small-3.png" style="width: 100px; height: 100px;">
 
