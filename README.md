@@ -7,27 +7,50 @@
 We used HTML & CSS, including GRID, Flex-Box and media queries. The webpage is visually responsive for all formats including mobile and for you to test this you can right-click on your browser, Re-size the browser and you will see how the layout changes for differnet screen sizes.
 
 ## Built With
-
-- HTML
-- CSS
+```
+- HTML5 
+- CSS3
 - VS Code
 - Font Awesome Icons
-
+```
+![img](./src/assets/svg/html-5.svg) ![img](./src/assets/svg/css-3.svg)
+![img](./src/assets/svg/v-s-code.svg) ![img](./src/assets/svg/fontawesome.svg)
 ## Live Demo
 
-[Live Demo Link](https://responsive-design-tau.vercel.app/)
+#### Click on image below..
+
+<a href="https://responsive-design-tau.vercel.app/">
+    <img src="src/assets/svg/monitor.svg">
+</a>
+
+## Run Tests
+
+### Install
+```
+npm i hint
+```
+### Run
+```
+npx hint .
+```
+```
+npx stylelint "**/*.{css,scss}"
+```
 
 
 ## Authors
 
 👤 **Daniel Ronan**
 
-- Github: [@DcRonan](https://github.com/DcRonan)
-- Linkedin: [Daniel Ronan](https://www.linkedin.com/in/danronan10/)
+![img](src/assets/svg/github.svg) [@DcRonan](https://github.com/DcRonan) <br>
+![img](src/assets/svg/linkedin.svg) [Daniel Ronan](https://www.linkedin.com/in/danronan10/) <br>
+![img](src/assets/svg/twitter.svg) [@dc_ronan](https://twitter.com/dc_ronan) <br>
+![img](src/assets/svg/mail.svg) <a href="mailto:danielconnorronan@gmail.com?subject=Hi Dan!"> Email me</a>
 
 👤 **Lamia Sristy**
 
-- Github: [@LamiaSristy](https://github.com/LamiaSristy)
+![img](src/assets/svg/github.svg) [@LamiaSristy](https://github.com/LamiaSristy) <br>
+
 
 ## 🤝 Contributing
 
