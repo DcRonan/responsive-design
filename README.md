@@ -10,13 +10,11 @@ We used HTML & CSS, including GRID, Flex-Box and media queries. The webpage is v
 
 ### Mobile 
 
-![img](.src/assets/small-1.png =100x100)
-<img src="src/assets/small-2.png" style="width: 100px; height: 100px;">
-<img src="src/assets/small-3.png" style="width: 100px; height: 100px;">
+<img src="src/assets/small-4.png" width="300"> <img src="src/assets/small-2.png" width="300"> <img src="src/assets/small-3.png" width="300">
 
 ### Tablet
 
-<img src="src/assets/medium.png" style="width: 100px; height: 100px;">
+<img src="src/assets/medium.png" width="200"> <img src="src/assets/small-1.png" width="200">
 
 ## Built With
 ```
