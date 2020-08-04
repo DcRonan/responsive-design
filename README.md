@@ -14,7 +14,7 @@ We used HTML & CSS, including GRID, Flex-Box and media queries. The webpage is v
 
 ### Tablet
 
-<img src="src/assets/medium.png" width="200"> <img src="src/assets/small-1.png" width="200">
+<img src="src/assets/medium.png" width="200"> <img src="src/assets/medium-1.png" width="200">
 
 ## Built With
 ```
