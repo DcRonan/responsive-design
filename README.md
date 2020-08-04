@@ -1,6 +1,6 @@
 # Building with Responsive Design
 
-> In this project we creted a clone of [The Next Web](https://thenextweb.com/)
+> In this project we created a clone of [The Next Web](https://thenextweb.com/)
 
 ![screenshot](./src/assets/main-screenshot.jpg)
 
