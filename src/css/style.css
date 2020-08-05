@@ -216,7 +216,7 @@ nav li {
 .header-articles {
   flex-direction: column;
   gap: 5px;
-  margin: 50px 0 20px 0;
+  margin: 10px 0 20px 0;
   color: var(--white);
 }
 
@@ -252,7 +252,8 @@ nav li {
 
 .left-box img {
   display: none;
-  width: 380px;
+  width: 50%;
+  max-width: 480px;
   padding: 20px 0 0 20px;
   top: 0;
   left: 0;
@@ -659,18 +660,20 @@ MEDIA QUERIES
   }
 
   .header-articles {
+    height: 500px;
+    margin: 50px 0;
     flex-direction: row;
   }
 
   .left-box {
     width: 70vw;
-    height: 405px;
+    height: 535px;
   }
 
   .right-box,
   .right-box-2 {
     width: 33vw;
-    height: 200px;
+    height: 265px;
   }
 
   .right-box {
@@ -678,12 +681,18 @@ MEDIA QUERIES
   }
 
   .head-box-text h3 {
-    font-size: 15px;
+    font-size: 16px;
     width: 90%;
   }
 
   .left-box h3 {
-    font-size: 38px;
+    font-size: 40px;
+    line-height: 1.1em;
+  }
+
+  .head-box-text span,
+  .head-box-text h6 {
+    font-size: 12px;
   }
 
   .left-nav li,
@@ -797,8 +806,17 @@ MEDIA QUERIES
     padding-left: 0;
   }
 
-  .main-head-text {
-    font-size: 40px;
+  .head-box-text h3 {
+    font-size: 20px;
+  }
+
+  .left-box h3 {
+    font-size: 50px;
+  }
+
+  .head-box-text span,
+  .head-box-text h6 {
+    font-size: 15px;
   }
 
   .top-articles h2,
