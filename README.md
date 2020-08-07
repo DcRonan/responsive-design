@@ -11,7 +11,7 @@ We used HTML & CSS, including GRID, Flex-Box and media queries. The webpage is v
 ### Mobile 
 
 <img src="src/assets/small-4.png" width="300"> <img src="src/assets/small-3.png" width="300"> <br>
-<img src="src/assets/aside-sc.png" width="300"> <img src="src/assets/aside-sc-1.png">
+<img src="src/assets/aside-sc-1.png" width="200"> <img src="src/assets/aside-sc.png" height="230">
 
 ### Tablet
 
