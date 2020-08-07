@@ -2,19 +2,19 @@
 
 > The purpose of this project was to make a responsive webpage for different screen sizes and in doing so we also created a clone of [The Next Web](https://thenextweb.com/)
 
-![screenshot](./src/assets/main-screenshot.jpg)
+![screenshot](./src/assets/main-screenshot.png)
 
-We used HTML & CSS, including GRID, Flex-Box and media queries. The webpage is visually responsive for all formats including mobile and for you to test this you can re-size the browser and you will see how the layout changes for differnet screen sizes.
+We used HTML & CSS, including GRID, Flex-Box and media queries. The webpage is visually responsive for all formats including mobile and for you to test this you can re-size the browser and you will see how the layout changes for different screen sizes.
 
 ## Responsive Changes
 
 ### Mobile 
 
-<img src="src/assets/small-4.png" width="300"> <img src="src/assets/small-2.png" width="300"> <img src="src/assets/small-3.png" width="300">
+<img src="src/assets/small-4.png" width="300"> <img src="src/assets/small-3.png" width="300">
 
 ### Tablet
 
-<img src="src/assets/medium.png" width="200"> <img src="src/assets/medium-1.png" width="300" height="200">
+<img src="src/assets/medium-1.png" width="300" height="200">
 
 ## Built With
 ```
