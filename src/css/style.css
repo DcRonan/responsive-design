@@ -239,6 +239,8 @@ aside li {
 }
 
 .nav-btn:focus + aside {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
