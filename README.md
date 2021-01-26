@@ -29,7 +29,7 @@ We used HTML & CSS, including GRID, Flex-Box and media queries. The webpage is v
 
 ## Live Demo
 
-#### Click on image below..
+#### Click on the image below..
 
 <a href="https://responsive-design-tau.vercel.app/">
     <img src="src/assets/svg/monitor.svg">
@@ -68,16 +68,11 @@ npx stylelint "**/*.{css,scss}"
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](enter issues url here).
+Feel free to check the [issues page](https://github.com/DcRonan/responsive-design/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
 
 ## 📝 License
 
